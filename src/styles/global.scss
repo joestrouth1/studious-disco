@@ -17,6 +17,8 @@ body {
 
 main {
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {

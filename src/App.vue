@@ -29,8 +29,6 @@
 <script>
 import Intro from '@/components/Intro';
 
-require('aframe');
-
 export default {
   name: 'app',
   components: {
