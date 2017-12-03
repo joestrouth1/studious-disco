@@ -1,26 +1,21 @@
 <template>
   <div id="app">
     <header class="header">
-      <router-link to="/" class="nav-link">
-      <h1 class="logo">overstockArt.com</h1>
+      <h1 class="logo nav-link">
+      <router-link to="/">
+        overstockArt.com
       </router-link>
+        </h1>
       <nav class="nav">
         <ul class="nav-links">
           <li class="nav-link">
-          <router-link to="/scene">Vincent</router-link>
-          </li>
-          <li class="nav-link">
-          <router-link to="/#">Claude</router-link>
-          </li>
-          <li class="nav-link">
-          <router-link to="/#">Monet</router-link>
+          <router-link to="/scene">View Scene</router-link>
           </li>
         </ul>
       </nav>
+      <intro/>
     </header>
     <main>
-      <intro/>
-      <router-link to="/test">Test</router-link>
       <router-view></router-view>
     </main>
   </div>
