@@ -28,19 +28,31 @@
           <a-entity text="value: ${name}; color: #ae0011; align: center; width: 1;"></a-entity>
         </script>
       </a-assets>
+      <!-- Sky Image cred: European Southern Observatory, CC BY 4.0 -->
       <a-sky color="#cdcdcd" src="#night-sky" theta-length="115"></a-sky>
+      <a-text rotation="-90 0 0"
+        value="Sky Image: ESO/Y.Beletsky (500px.com/ybeletsky)"
+        color="#ffffff"
+        position="-.5 -1.9 0"
+        width="1"
+        height="1"
+        ></a-text>
       <a-plane rotation="-90 0 0"
       width="100"
       height="100"
+      align="center"
       position="0 -2 0"
       color="#222222"></a-plane>
-      <a-image id="image" position="0 0 -1" src="#vg549" width="1.2" height="1"></a-image>
+      <a-text value="Vincent van Gogh"
+      width="2.4"
+      position="-.4 1 -1.475"></a-text>
+      <a-image id="image" position="0 .2 -1.5" src="#vg549" width="1.2" height="1"></a-image>
 
       <!-- Image links. -->
-      <a-entity id="links" layout="type: line; margin: .5;" position="-.5 -.5 -.8">
-        <a-entity template="src: #link" data-src="#vg485" data-thumb="#cubes-thumb"></a-entity>
-        <a-entity template="src: #link" data-src="#vg549" data-thumb="#city-thumb"></a-entity>
-        <a-entity template="src: #link" data-src="#vg415" data-thumb="#sechelt-thumb"></a-entity>
+      <a-entity id="links" layout="type: line; margin: .5;" position="-.5 -.5 -1.3">
+        <a-entity template="src: #link" data-src="#vg485" data-thumb="#vg485"></a-entity>
+        <a-entity template="src: #link" data-src="#vg549" data-thumb="#vg549"></a-entity>
+        <a-entity template="src: #link" data-src="#vg415" data-thumb="#vg415"></a-entity>
       </a-entity>
 
       <!-- Camera + cursor. -->
