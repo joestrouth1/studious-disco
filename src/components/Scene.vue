@@ -2,7 +2,7 @@
   <div class="scene">
     <a-scene embedded>
       <a-assets>
-        <img id="vg415" crossorigin="anonymous" src="https://ucarecdn.com/07999ad0-1929-468d-a2c5-3664b0d16efd/">
+        <img id="vg955" crossorigin="anonymous" src="https://ucarecdn.com/072d4f8b-ad56-4510-a74f-cdb37b89acfb/">
         <img id="vg485" crossorigin="anonymous" src="https://ucarecdn.com/998d7758-a1ac-4708-b1d8-61b8fb9e29ed/">
         <img id="vg549" crossorigin="anonymous" src="https://ucarecdn.com/749eb38f-e860-42b5-a54d-75efbf4ae67f/">
         <img id="night-sky" crossorigin="anonymous" src="https://ucarecdn.com/797d44fd-f7cd-4684-9bb5-11fda123b75a/">
@@ -52,7 +52,7 @@
       <a-entity id="links" layout="type: line; margin: .5;" position="-.5 -.5 -1.3">
         <a-entity template="src: #link" data-src="#vg485" data-thumb="#vg485"></a-entity>
         <a-entity template="src: #link" data-src="#vg549" data-thumb="#vg549"></a-entity>
-        <a-entity template="src: #link" data-src="#vg415" data-thumb="#vg415"></a-entity>
+        <a-entity template="src: #link" data-src="#vg955" data-thumb="#vg955"></a-entity>
       </a-entity>
 
       <!-- Camera + cursor. -->
